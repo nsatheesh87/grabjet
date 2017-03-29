@@ -1,0 +1,172 @@
+/*
+Theme Name: GrabJet
+Author: Satheesh Narayanan
+Description: This theme is developed for skill test purpose
+Version: 0.0.1
+Tags: bootstrap
+*/
+body {
+	font-size: 12px;
+	line-height: 1.5;
+	color: #424242;
+	font-weight: normal;
+	
+}
+.main{
+	background-repeat: no-repeat;
+	background-image: url('images/grab.jpg');
+    background-size: contain;
+    background-position: top; 
+}
+
+.logo {
+	height:40px;
+	max-width:220px;
+	float:left;
+}
+.logo-text {
+	font-weight: bold;
+	 padding-top:15px;
+	 font-size:40px; 
+	 color:#fff;"
+}
+.widgetForm {
+	padding-top:30%;
+}
+
+.nav li {
+	color: #fff;
+	font-size:15px;
+	font-weight: 500;
+	margin:10px;
+	padding-top:20px;
+	padding-left:15px;
+	
+}
+.navbar-toggle, .navbar-toggle .icon-bar {
+	border: 1px solid #fff;
+}
+
+.in {
+	background-color: #3dbe6b;
+    border-color: #00B140;
+}
+
+.h5 {
+	line-height: 1.7;
+}
+.fa {
+	color: #00B140;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #f8f9fb;
+	border-top:1px solid #eee;
+}
+footer ul {
+	margin: 20px 0px;
+	padding: 0;
+	list-style-type: none;
+}
+
+footer ul li 
+{ 
+	display: inline;
+	margin:15px;
+	color: #424242;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.widgetSection {
+	margin-top:60px;
+	margin-bottom: 80px;
+}
+.bookingBox {
+	margin:5px;
+	margin-bottom: 80px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+input[type="text"] {
+	border : 0;
+	box-shadow: none;
+	border-radius: 0px;
+}
+.form-group {
+ 	padding:10px;
+	margin-left: 10px;
+ 	margin-bottom: 0px; 
+}
+
+.border-line {
+	margin-top: 0px; 
+    margin-bottom: 0px; 
+}
+
+.border-right {
+	border-right: 1px solid #ccc;
+}
+.form-grid {
+	background-color: #eee;
+	margin-left: 0;
+	margin-right: 0;
+}
+.control-label {
+	font-weight: normal;
+}
+.pick-up {
+	border-left: 3px double #5296F2;
+}
+
+.drop-off {
+	border-left: 3px double red;
+}
+.bootstrap-select > .btn {
+	border:0 none;
+	background-color: transparent;
+}
+.btn-green {
+	background-color: #00B140;
+    border-color: #00B140;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	text-align: center;
+}
+@media only screen and (min-width : 1366px){
+
+	.widgetForm {
+		padding-top:38%;
+	}
+}
+
+@media only screen and (max-width : 480px){
+	.logo {
+		height:20px;
+	}
+	.logo-text {
+		font-weight: bold;
+		 padding-top:2px;
+		 font-size:20px; 
+		 color:#fff;"
+	}
+	.widgetForm {
+		padding-top:160px;
+	}
+	.border-right {
+		border-right: 0px solid #ccc;
+	}
+}
+
+
+
+
